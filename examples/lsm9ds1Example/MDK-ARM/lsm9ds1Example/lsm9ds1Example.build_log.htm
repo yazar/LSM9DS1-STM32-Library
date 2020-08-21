@@ -1,0 +1,163 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: YAZAR YAZICI, ADAPERA ROBOTIK, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Rulo\Desktop\lsm9ds1\lsm9ds1Example\MDK-ARM\lsm9ds1Example.uvprojx
+Project File Date:  08/21/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'lsm9ds1Example'
+compiling main.c...
+..\..\..\lsm9ds1library\library\LSM9DS1_Registers.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\lsm9ds1library\library\lsm9ds1.h(178): warning:  #1295-D: Deprecated declaration accelAvailable - give arg types
+  	uint8_t accelAvailable();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(184): warning:  #1295-D: Deprecated declaration gyroAvailable - give arg types
+  	uint8_t gyroAvailable();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(190): warning:  #1295-D: Deprecated declaration tempAvailable - give arg types
+  	uint8_t tempAvailable();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(245): warning:  #1295-D: Deprecated declaration readTemp - give arg types
+  	float readTemp();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(368): warning:  #1295-D: Deprecated declaration configInt - give arg types
+  	void configInt(); // activeLow = INT_ACTIVE_LOW  pp_od pushPull = INT_PUSH_PULL
+..\..\..\lsm9ds1library\library\lsm9ds1.h(386): warning:  #1295-D: Deprecated declaration getGyroIntSrc - give arg types
+  	uint8_t getGyroIntSrc();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(389): warning:  #1295-D: Deprecated declaration getAccelIntSrc - give arg types
+  	uint8_t getAccelIntSrc();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(392): warning:  #1295-D: Deprecated declaration getMagIntSrc - give arg types
+  	uint8_t getMagIntSrc();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(395): warning:  #1295-D: Deprecated declaration getInactivity - give arg types
+  	uint8_t getInactivity();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(416): warning:  #1295-D: Deprecated declaration getFIFOSamples - give arg types
+  	uint8_t getFIFOSamples();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(435): warning:  #1295-D: Deprecated declaration init - give arg types
+  	void init();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(449): warning:  #1295-D: Deprecated declaration initGyro - give arg types
+  	void initGyro();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(459): warning:  #1295-D: Deprecated declaration initAccel - give arg types
+  	void initAccel();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(470): warning:  #1295-D: Deprecated declaration initMag - give arg types
+  	void initMag();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(523): warning:  #1295-D: Deprecated declaration calcgRes - give arg types
+  	void calcgRes();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(528): warning:  #1295-D: Deprecated declaration calcmRes - give arg types
+  	void calcmRes();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(533): warning:  #1295-D: Deprecated declaration calcaRes - give arg types
+  	void calcaRes();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(538): warning:  #1295-D: Deprecated declaration constrainScales - give arg types
+  	void constrainScales();
+..\..\..\lsm9ds1library\library\lsm9ds1.h(545): warning:  #1295-D: Deprecated declaration initSPI - give arg types
+  	void initSPI();
+../Core/Src/main.c: 20 warnings, 0 errors
+compiling lsm9ds1.c...
+..\..\..\lsm9ds1library\library\LSM9DS1_Registers.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\lsm9ds1library\library\LSM9DS1.h(178): warning:  #1295-D: Deprecated declaration accelAvailable - give arg types
+  	uint8_t accelAvailable();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(184): warning:  #1295-D: Deprecated declaration gyroAvailable - give arg types
+  	uint8_t gyroAvailable();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(190): warning:  #1295-D: Deprecated declaration tempAvailable - give arg types
+  	uint8_t tempAvailable();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(245): warning:  #1295-D: Deprecated declaration readTemp - give arg types
+  	float readTemp();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(368): warning:  #1295-D: Deprecated declaration configInt - give arg types
+  	void configInt(); // activeLow = INT_ACTIVE_LOW  pp_od pushPull = INT_PUSH_PULL
+..\..\..\lsm9ds1library\library\LSM9DS1.h(386): warning:  #1295-D: Deprecated declaration getGyroIntSrc - give arg types
+  	uint8_t getGyroIntSrc();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(389): warning:  #1295-D: Deprecated declaration getAccelIntSrc - give arg types
+  	uint8_t getAccelIntSrc();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(392): warning:  #1295-D: Deprecated declaration getMagIntSrc - give arg types
+  	uint8_t getMagIntSrc();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(395): warning:  #1295-D: Deprecated declaration getInactivity - give arg types
+  	uint8_t getInactivity();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(416): warning:  #1295-D: Deprecated declaration getFIFOSamples - give arg types
+  	uint8_t getFIFOSamples();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(435): warning:  #1295-D: Deprecated declaration init - give arg types
+  	void init();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(449): warning:  #1295-D: Deprecated declaration initGyro - give arg types
+  	void initGyro();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(459): warning:  #1295-D: Deprecated declaration initAccel - give arg types
+  	void initAccel();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(470): warning:  #1295-D: Deprecated declaration initMag - give arg types
+  	void initMag();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(523): warning:  #1295-D: Deprecated declaration calcgRes - give arg types
+  	void calcgRes();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(528): warning:  #1295-D: Deprecated declaration calcmRes - give arg types
+  	void calcmRes();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(533): warning:  #1295-D: Deprecated declaration calcaRes - give arg types
+  	void calcaRes();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(538): warning:  #1295-D: Deprecated declaration constrainScales - give arg types
+  	void constrainScales();
+..\..\..\lsm9ds1library\library\LSM9DS1.h(545): warning:  #1295-D: Deprecated declaration initSPI - give arg types
+  	void initSPI();
+..\..\..\lsm9ds1library\library\lsm9ds1.c(10): warning:  #550-D: variable "gBiasRaw"  was set but never used
+  	int16_t gBiasRaw[3], aBiasRaw[3], mBiasRaw[3];
+..\..\..\lsm9ds1library\library\lsm9ds1.c(10): warning:  #550-D: variable "aBiasRaw"  was set but never used
+  	int16_t gBiasRaw[3], aBiasRaw[3], mBiasRaw[3];
+..\..\..\lsm9ds1library\library\lsm9ds1.c(10): warning:  #550-D: variable "mBiasRaw"  was set but never used
+  	int16_t gBiasRaw[3], aBiasRaw[3], mBiasRaw[3];
+..\..\..\lsm9ds1library\library\lsm9ds1.c(11): warning:  #550-D: variable "gBias"  was set but never used
+  	float gBias[3], aBias[3], mBias[3];
+..\..\..\lsm9ds1library\library\lsm9ds1.c(11): warning:  #550-D: variable "aBias"  was set but never used
+  	float gBias[3], aBias[3], mBias[3];
+..\..\..\lsm9ds1library\library\lsm9ds1.c(11): warning:  #550-D: variable "mBias"  was set but never used
+  	float gBias[3], aBias[3], mBias[3];
+..\..\..\lsm9ds1library\library\lsm9ds1.c(893): warning:  #68-D: integer conversion resulted in a change of sign
+  	return -1;
+..\..\..\lsm9ds1library\library\lsm9ds1.c(904): warning:  #68-D: integer conversion resulted in a change of sign
+  	return -1;
+..\..\..\lsm9ds1library\library\lsm9ds1.c(915): warning:  #68-D: integer conversion resulted in a change of sign
+  	return -1;
+..\..\..\lsm9ds1library\library\lsm9ds1.c(926): warning:  #68-D: integer conversion resulted in a change of sign
+  	return -1;
+..\..\..\lsm9ds1library\library\lsm9ds1.c: 30 warnings, 0 errors
+linking...
+Program Size: Code=6924 RO-data=448 RW-data=68 ZI-data=1156  
+FromELF: creating hex file...
+"lsm9ds1Example\lsm9ds1Example.axf" - 0 Error(s), 50 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_lsm9ds1Example
+  C:\Users\Rulo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Rulo\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
