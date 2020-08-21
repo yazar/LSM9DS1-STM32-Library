@@ -5,7 +5,7 @@ I have basically took the sparkfun library whick written for arduino ([here](htt
 
 I didn't have time for coding the SPI side so this has only I2C. 
 
-# Usage
+## Usage
 
 Use CubeMX to init the code with i2c
 
